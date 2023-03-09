@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 360px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    display: flex;
+    font-weight: bold;
+}
+
+.form-campo input {
+    padding: 8px;
+    justify-content: center;
+}
+
+form button {
+    max-width: 120px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
